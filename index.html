@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <h1>Criar conta</h1>
+
+        <form class="cadastro" action="cas.php" method="post">
+
+            <p><strong> Seu nome </strong></p>
+           <input type="nome" name="nome" placeholder="Nome" required>
+            <br>
+            <p> <strong>Email </strong></p>
+            <input type="email" name="email" placeholder="Coloque seu email" required>
+            <br>
+            <p> <strong>Senha </strong></p>
+            <input type="password" name="senha" minlength="6" maxlength="20" placeholder="Pelo menos 6 caracteres" id="pass" required>
+            <br>
+            <p> <strong>Insira a senha novamente </strong></p>
+            <input type="password" name="senha" minlength="6" maxlength="20" placeholder="Confirme sua senha" id="pass" required>
+            <br>
+            <input type="submit" value="Criar conta">
+            <br>
+            <h3>Ao criar uma conta, você concorda com as <a href="https://www.google.com/"> Condições de Uso </a>. Por favor verifique a Notificação de Privacidade,
+            <a href="/https://www.google.com/">Notificação de Cookies</a> e a <a href="https://www.google.com/">Notificação de Anúncios Baseados em Interesse.</a></h3>
+
+        </form>
+    </main>
+
+</body>
+</html>

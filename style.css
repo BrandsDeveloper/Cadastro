@@ -1,0 +1,88 @@
+body{
+    margin: 0px; /*Espaçamento Externo*/
+    padding: 0px; /*Espaçamento Interno*/
+    background-color: grey; /*Cor de fundo*/
+    font-family: Arial, Helvetica, sans-serif /*Familia Fonte*/
+}
+
+p{
+    margin: 0px; /*Espaçamento Externo*/
+    padding: 0px; /*Espaçamento Interno*/
+    position: relative; /*Posição relativa*/
+    left: 3%;  /*Esquerda*/
+    font-size: 14px; /*Tamanho da fonte*/
+}
+
+main{
+    text-align: left; /*texto a esquerda*/
+    padding-left: 25px; /*Espaçamento Interno a esquerda*/
+    padding-right: 25px; /*Espaçamento Interno a direita*/
+    padding-top: 10px; /*Espaçamento Interno ao topo*/
+    padding-bottom: 25px; /*Espaçamento Interno abaixo*/
+    background-color: rgb(255, 255, 255); /*Cor de fundo*/
+    border: 1px solid black; /*Borda tipo e cor*/
+    border-radius: 5px; /*Aredondamento da borda*/
+    width: 24%; /*Largura*/ 
+    position: absolute; /*Posição absoluta*/
+    left: 35%; /*Esquerda*/
+    top: 13%; /*Topo*/
+}
+
+form input{
+    padding:4px; /*Espaçamento Interno*/
+    margin: 5px; /*Espaçamento Externo*/
+    width: 300px; /*Largura*/ 
+    border: 1px solid slategray; /*Borda tipo e cor*/
+    border-radius: 4px; /*Aredondamento da borda*/
+}
+
+form input, ::placeholder{
+    outline: none; /*Sem marcações*/
+    background: none; /*Fundo transparente*/
+    padding: 6px; /*Espaçamento Interno*/
+    margin: 10px; /*Espaçamento Externo*/
+    font-size: 13px; /*Tamanho da fonte*/
+}
+
+form input[type="nome"]:focus,form input[type="email"]:focus,form input[type="password"]:focus{
+    border: 1px solid goldenrod; /*Borda tipo e cor*/
+}
+
+form input[type="submit"]{
+    width: 90px; /*Largura*/
+    background-color: goldenrod; /*Cor de Fundo*/
+    border: 1px solid goldenrod; /*Borda tipo e cor*/
+    color: #201e1e; /*Cor*/
+}
+
+form input[type="submit"]:hover{
+    background-color: #daa520d5; /*Cor de Fundo*/
+    border: 1px solid #daa520d5; /*Borda tipo e cor*/
+    color: #201e1e; /*Cor*/
+}
+
+form input[type="submit"]:active{
+    background-color: #96959596; /*Cor de Fundo*/
+    border: 1px solid #96959571; /*Borda tipo e cor*/
+    color: white; /*Cor*/
+}
+
+h3{
+    margin: 0px; /*Espaçamento Externo*/
+    padding: 0px 9px; /*Espaçamento Interno*/
+    font-size: 11px; /*Tamanho da fonte*/
+}
+
+form a{
+    text-decoration: none; /*Colocar sublinhado*/
+    color: royalblue; /*Cor*/
+}
+
+form a:hover{
+    text-decoration: underline;
+    color: goldenrod; /*Cor*/
+}
+
+form a:active{
+    color: #daa520d5; /*Cor*/
+}
